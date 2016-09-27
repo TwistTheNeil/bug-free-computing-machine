@@ -31,7 +31,7 @@ nav #navbar-li {
 	height: 50px;
 	font-family: Helvetica;
 /*	border: solid 1px green;*/
-	width: 130px;
+	width: 150px;
 }
 
 nav #navbar-li::after {
@@ -42,7 +42,7 @@ nav #navbar-li::after {
 #navbar-a {
 	display: block;
 	font-weight: bold;
-	color: #757575;
+	color: #1eb2f9;
 	text-decoration: none;
 	/*margin: 0 auto;*/
 	height: 50px;
@@ -50,11 +50,13 @@ nav #navbar-li::after {
 
 #navbar-a:hover {
 	background-color: #343434;
+	color: #f98d1e;
 }
 
 /* For those tabbers among us */
 #navbar-a:focus {
 	background-color: #343434;
+	color: #f98d1e;
 }
 
 footer {
