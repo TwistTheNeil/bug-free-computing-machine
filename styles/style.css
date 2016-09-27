@@ -49,10 +49,10 @@ a {
 }
 
 a:hover {
-	background-color: #303030;
+	background-color: #343434;
 }
 
 /* For those tabbers among us */
 a:focus {
-	background-color: #303030;
+	background-color: #343434;
 }
