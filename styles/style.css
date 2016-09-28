@@ -5,7 +5,7 @@ body {
 	margin: 0;
 }
 
-#body-p {
+body p {
 	font-family: Helvetica;
 }
 
@@ -15,7 +15,7 @@ nav {
 	height: 60px;
 }
 
-#navbar {
+nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ nav {
 	text-align: center;
 }
 
-nav #navbar-li {
+nav ul li {
 	display: inline-block;
 	/*padding-top:10px;*/
 	top:0;
@@ -37,12 +37,12 @@ nav #navbar-li {
 	width: 150px;
 }
 
-nav #navbar-li::after {
+nav ul li::after {
 /*	content: "|";*/
 	margin-left: 5px;
 }
 
-#navbar-a {
+nav ul li a {
 	display: block;
 	font-weight: bold;
 	padding-top:20px;
@@ -52,13 +52,13 @@ nav #navbar-li::after {
 	height: 40px;
 }
 
-#navbar-a:hover {
+nav ul li a:hover {
 	background-color: #343434;
 	color: #f98d1e;
 }
 
 /* For those tabbers among us */
-#navbar-a:focus {
+nav ul li a:focus {
 	background-color: #343434;
 	color: #f98d1e;
 }
@@ -71,18 +71,18 @@ footer {
 	height:60px;
 }
 
-#footer-p {
+footer p {
 	text-align: center;
 }
 
-#footer-a {
+footer a {
 	color: #757575;
 	text-decoration: none;
 }
 
-#footer-a:hover {
+footer a:hover {
 	color: #a5a5a5;
 }
-#footer-a:focus {
+footer a:focus {
 	color: #a5a5a5;
 }
