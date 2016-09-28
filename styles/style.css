@@ -19,16 +19,19 @@ nav {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	/*padding-top: 7px;*/
 	text-align: center;
 }
 
 nav #navbar-li {
 	display: inline-block;
-	padding-top:10px;
+	/*padding-top:10px;*/
+	top:0;
+	padding: 0;
 	color: #343434;
 	/*font-size: 3em;*/
-	line-height: 40px;
-	height: 50px;
+	/*line-height: 40px;*/
+	height: 60px;
 	font-family: Helvetica;
 /*	border: solid 1px green;*/
 	width: 150px;
@@ -42,10 +45,11 @@ nav #navbar-li::after {
 #navbar-a {
 	display: block;
 	font-weight: bold;
+	padding-top:20px;
 	color: #1eb2f9;
 	text-decoration: none;
 	/*margin: 0 auto;*/
-	height: 50px;
+	height: 40px;
 }
 
 #navbar-a:hover {
