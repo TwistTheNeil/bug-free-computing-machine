@@ -1,5 +1,5 @@
 body {
-	background-color: #343434;
+	background-color: #1a1a1a;
 	box-sizing: border-box;
 	color: #757575;
 	margin: 0;
@@ -10,7 +10,7 @@ body p {
 }
 
 nav {
-	background-color: #151515;
+	background-color: #1a1a1a;
 	top: 0;
 	height: 60px;
 }
@@ -55,13 +55,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #343434;
 	color: #f98d1e;
 }
 
 /* For those tabbers among us */
 nav ul li a:focus {
-	background-color: #343434;
 	color: #f98d1e;
 }
 
@@ -76,7 +74,7 @@ nav ul li a:focus {
 }
 
 footer {
-	background-color: #151515;
+	background-color: #1a1a1a;
 	position:absolute;
 	bottom:0;
 	width:100%;
