@@ -65,12 +65,62 @@ nav ul li a:focus {
 
 @media screen and (max-width: 600px) {
 	nav {
-		height: 240px;
+		height: 180px;
+		background-color: #151515;
 	}
 	nav ul li {
 		display: block;
 		width: auto;
 	}
+}
+
+/*.kindacenter {
+	height: 25px;
+}*/
+
+.first-blockey {
+	padding-top: 100px;
+}
+
+.parent-blockey {
+	width: 75%;
+	margin: auto;
+	/*border-top: 1px solid #1f1f1f;*/
+	border-bottom: 1px solid #343434;
+}
+
+.blockey {
+	border-left: 1px solid #343434;
+/*	border-right: 1px solid #343434;
+	background-color: #151515;*/
+}
+
+.bigger-text {
+	font-size: 18px;
+}
+
+.heading {
+	display: block;
+	padding-top: 3px;
+	margin-left: 5px;
+}
+
+.blurb {
+	display: block;
+	padding-top: 3px;
+	margin-left: 50px;
+}
+
+.blue-text {
+	color: #1eb2f9;
+}
+
+.green-text {
+	color: green;
+}
+
+.amber-text {
+	color: #ff6600;
 }
 
 footer {
