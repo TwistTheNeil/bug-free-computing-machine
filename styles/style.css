@@ -63,17 +63,6 @@ nav ul li a:focus {
 	color: #f98d1e;
 }
 
-@media screen and (max-width: 600px) {
-	nav {
-		height: 180px;
-		background-color: #151515;
-	}
-	nav ul li {
-		display: block;
-		width: auto;
-	}
-}
-
 /*.kindacenter {
 	height: 25px;
 }*/
@@ -148,4 +137,18 @@ footer a:hover {
 }
 footer a:focus {
 	color: #a5a5a5;
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		height: 180px;
+		background-color: #151515;
+	}
+	nav ul li {
+		display: block;
+		width: auto;
+	}
+	footer {
+		background-color: #151515;
+	}
 }
